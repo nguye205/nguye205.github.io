@@ -1,6 +1,7 @@
-:root{
+:root {
   --numCol: 11;
 }
+
 body {
   background-color: #96A8C8;
   font-size: 16px;
@@ -9,12 +10,14 @@ body {
   font-weight: 500;
   text-decoration: none;
 }
+
 .bigWrapper {
   display: grid;
   grid-gap: 2px;
-  grid-template-columns:  repeat(20, 50px);
+  grid-template-columns: repeat(20, 50px);
   grid-template-rows: repeat(5, 50px);
 }
+
 .topWrapper {
   grid-column: var(--numCol);
   grid-row: 1/10;
@@ -136,7 +139,7 @@ body {
 }
 
 #logo {
-  float:left;
+  float: left;
 }
 
 #slogan {
